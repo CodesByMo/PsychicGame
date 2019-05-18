@@ -15,12 +15,12 @@ if (guesses > 0) {
 
     var guess = document.getElementById("guesses").value = ;
     if (guess == winningLetter) {
-        // Selects a new random letter and adds 1 win.Also the previous guesses are reset.
+        // get new random letter and adds 1 win. reset previous guesses.
         wins += 1;
         winningLetter = alphabet[Math.floor(Math.random() * 26)];
         guesses = "";
     } else {
-        //Adds 1 loss and takes away from one of your guesses. Also adds one of your guesses to the list.
+        //Add 1 loss and takes away from guesses.  adds one guess to the list.
         losses += 1;
         guesses += ", " + winningLetter;
     }
