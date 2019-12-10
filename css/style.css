@@ -12,7 +12,7 @@ html {
 }
 
 .bg-img {
-  background: url("https://cdn.dribbble.com/users/730703/screenshots/6703322/disney_exhibition_dream_destinations_at_gallery_nucleus.jpg");
+  background: url("../images/genie-bg.jpg");
   background-size: cover;
   filter: blur(5px);
   height: 100%;
