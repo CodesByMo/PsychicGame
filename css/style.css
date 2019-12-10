@@ -7,7 +7,7 @@ html {
 * {
   box-sizing: border-box;
 }
-/* .bg-cont {
+.bg-cont {
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   transform: scale(1.1);
-} */
+}
 .container {
   font-family: "Averia Libre", cursive;
   color: white;
