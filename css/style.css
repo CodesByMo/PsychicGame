@@ -73,9 +73,6 @@ header {
   filter: drop-shadow(0 0 0.75rem #d9564a);
 }
 
-#genie2 {
-}
-
 @keyframes float {
   0% {
     transform: translatey(0px);
