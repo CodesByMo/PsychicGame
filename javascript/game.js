@@ -12,10 +12,10 @@ var guesses = 6;
 winningLetter = alphabet[Math.floor(Math.random() * 26)]
 
 //game start
-document.getElementById("wins").textContent = "wins: " + wins;
-document.getElementById("losses").textContent = "losses: " + losses;
-document.getElementById("guesses").textContent = "guesses: " + guesses;
-document.getElementById("myGuess").textContent = "Your guesses: " + guessList;
+document.getElementById("wins").textContent = "Wins: " + wins;
+document.getElementById("losses").textContent = "Losses: " + losses;
+document.getElementById("guesses").textContent = "Left: " + guesses;
+document.getElementById("myGuess").textContent = "Guesses: " + guessList;
 
 document.addEventListener('keyup', function (event) {
     if (guesses > 0) {
@@ -42,10 +42,10 @@ document.addEventListener('keyup', function (event) {
         }
 
     }
-    document.getElementById("wins").textContent = "wins: " + wins;
-    document.getElementById("losses").textContent = "losses: " + losses;
-    document.getElementById("guesses").textContent = "guesses: " + guesses;
-    document.getElementById("myGuess").textContent = "Your guesses: " + guessList;
+    document.getElementById("wins").textContent = "Wins: " + wins;
+    document.getElementById("losses").textContent = "Losses: " + losses;
+    document.getElementById("guesses").textContent = "Left: " + guesses;
+    document.getElementById("myGuess").textContent = "Guesses: " + guessList;
     console.log(winningLetter)
 })
 

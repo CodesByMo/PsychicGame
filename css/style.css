@@ -89,3 +89,64 @@ header {
   background: rgba(0, 0, 0, 0.75);
   overflow: hidden;
 }
+
+.notice {
+  display: hidden;
+}
+
+/* ==========-MEDIA QUERIES-=================  */
+
+/* desktop  */
+@media only screen and (min-width: 960px) {
+}
+
+/* end desktop  */
+/* =============================== */
+/* midsizes  */
+@media only screen and (max-width: 960px) {
+  .notice {
+    left: 33.3%;
+    display: block;
+    font-weight: 800;
+    text-align: center;
+    background: gold;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    bottom: 0px;
+    font-family: monospace;
+    font-size: 12px;
+    padding: 8px 10px;
+    position: absolute;
+  }
+}
+/* end midsizes  */
+
+/* =============================== */
+
+/* mobile  */
+@media only screen and (max-width: 600px) {
+  header {
+    margin-top: 10%;
+  }
+  .bg-cont {
+    width: 650px;
+  }
+  .game-cont {
+    padding: 115px 0px;
+  }
+
+  #wins {
+    margin-right: 85px;
+  }
+
+  #myGuess {
+    text-align: right;
+    width: 180px;
+    margin-bottom: 60px;
+  }
+}
+
+/* .subscription_box .subscription input {
+    min-width: 360px;
+  } */
+/* end mobile  */
