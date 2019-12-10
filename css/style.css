@@ -1,0 +1,94 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-cont {
+  overflow: hidden;
+}
+
+.bg-img {
+  background: url("https://cdn.dribbble.com/users/730703/screenshots/6703322/disney_exhibition_dream_destinations_at_gallery_nucleus.jpg");
+  background-size: cover;
+  filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scale(1.1);
+}
+.container {
+  font-family: "Averia Libre", cursive;
+  color: white;
+  z-index: 2;
+  transform: translate(30px, -960px);
+}
+
+header {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 55px;
+  z-index: 10;
+  filter: drop-shadow(0 0 0.5rem #263238);
+}
+.genie-cont {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -455px;
+  z-index: -1;
+}
+
+.game-cont {
+  font-size: larger;
+  padding: 200px 0px;
+  z-index: 1;
+}
+
+#myGuess {
+  width: 500px;
+}
+
+#wins,
+#losses {
+  text-align: right;
+}
+
+#wins,
+#losses,
+#myGuess,
+#guesses {
+  font-size: 36px;
+  filter: drop-shadow(0 0 0.5rem #263238);
+}
+
+#genie {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 0.75rem #d9564a);
+}
+
+#genie2 {
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+#pixie {
+  background: rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
